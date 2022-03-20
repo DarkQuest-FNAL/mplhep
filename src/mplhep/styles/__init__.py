@@ -7,12 +7,15 @@ from matplotlib.pyplot import style as plt_style
 import mplhep._deprecate as deprecate
 
 # Short cut to all styles
+from .dq import DQ, ROOT, DQTex, ROOTTex
 from .alice import ALICE
 from .atlas import ATLAS, ATLASAlt, ATLASTex
 from .cms import CMS, ROOT, CMSTex, ROOTTex
 from .lhcb import LHCb, LHCb1, LHCb2, LHCbTex, LHCbTex1, LHCbTex2
 
 __all__ = (
+    "DQ",
+    "DQTex"
     "ALICE",
     "ATLAS",
     "ATLASAlt",
